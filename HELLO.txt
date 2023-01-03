@@ -1,0 +1,4 @@
+.catch(err => {
+        toast.error('Something went wrong, can be an issue with the internet');  
+        setSubmitting(false)
+      }
